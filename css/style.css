@@ -1,0 +1,1416 @@
+
+
+
+/*------------------------TEXTE/COULEUR DE TEXTE/POLICE/TYPOGRAPHIE-----------------------*/
+
+
+
+body{    
+    
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+/*Header*/
+
+h1{
+	text-transform: uppercase;
+	
+    font-size: 35px;
+    color:#FFF;
+    margin-bottom: 6px;
+}
+
+#firsttitle{
+	color:#5cadd3;
+}
+
+#textheader p{
+	
+    color: #FFF;
+    margin-top: 2px;
+    font-size: 13px;
+}
+
+
+nav ul li a{
+
+    color: black;
+    text-decoration: none
+   
+}
+nav ul li {
+
+    transition: 0.5s ease;
+    border-top: transparent 5px solid;
+}
+
+nav ul li:hover{
+
+    border-top-color:#5cadd3 ; 
+}   
+
+li{
+	list-style-type: none;
+    
+}
+
+button{
+
+    color: #FFFFFF;
+    background-color: #5cadd3; 
+    font-size: 0.8em;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 2px ;
+    box-shadow: 0px 3px  0 #4494bb;
+}
+
+
+
+/*Services et Projets*/
+
+h2{
+    
+    text-transform: uppercase;
+    font-size: 40px;
+    
+    margin-top: 5%;
+   text-align: center;
+    margin-bottom: 20px;
+
+    
+}
+
+.presentation{
+    margin: 40px 30% ;
+    text-align: center;
+
+}
+
+/*Services*/
+
+h4{
+    
+    font-size: 20px;
+    margin-top:10px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+------------------------------------EN-TETE-----------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+/*-----------------------MENU FIXANT---------------------------*/
+
+
+
+#header_principale{
+
+
+   
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    top:0;
+
+
+    background-color: #FFF;
+    z-index: 3;
+
+
+}
+
+
+nav{
+    
+    width: 35%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    margin: 0;
+   
+ 
+}
+
+nav ul{
+    
+    display: flex;
+    flex-direction: row;
+  
+}
+
+
+nav li{
+
+    padding: 40px 20px;
+    margin: 5px 5px;
+    list-style-type: none;
+    
+}
+
+.logo{
+    
+    
+    width: 35%;
+    
+   
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+
+
+    
+    
+}
+
+
+
+
+/*-----------------------------BANNIERE-----------------------------------*/
+
+
+
+
+
+#banniere {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.photo{
+
+    position: relative;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+#textheader{
+    
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: 100px;
+}
+
+
+
+.left{
+  
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  top: 50%;
+  left: -40px;
+  
+}
+.fa-angle-left{
+    margin-top: 25px;
+    margin-left: 51px;
+    color: #FFF;
+}
+
+.fa-angle-right{
+    margin-top: 25px;
+    margin-left: 19px;
+    color: #FFF;
+}
+
+
+.right{
+    
+     width: 100px;
+    height: 100px;
+       position: absolute;
+  top: 50%;
+  right: -55px;
+}
+
+
+
+.cercle_header{
+     width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    background: rgba(0,0,0,0.3);
+    
+}
+
+.cercle_header:hover{
+
+     background: rgba(0,0,0,1);
+}
+
+
+#bar_slider{
+    width: 100%;
+    height: 7px; 
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    bottom: 3.5px;
+}
+
+#bar {
+    width: 15%;
+    height: 7px;
+    background-color: #5cadd3;
+}
+
+
+
+/*-------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+------------------------------------SERVICES-----------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%; 
+    
+    
+    }
+#partiservices .imageservices img{
+    display: block;
+
+
+}
+
+
+#partiservices{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+    margin: auto;
+   max-width: 1600px;
+
+
+}
+
+
+
+#imageservices{
+   
+    margin-top: -60px;
+ 
+}
+
+/***********CERCLE ENDESSOUS DU TITRE SERVICE**********/
+
+.trait_cercle{
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.cercleh2 {
+    width: 17px;
+    height: 17px;
+    border-radius: 20px;
+    background:#5cadd3;
+    border: solid 4px #FFF;
+    position: absolute;
+  
+}
+
+.trait{
+
+    width: 150px; 
+    height: 0.8px; 
+    background-color: #9EACAA;
+    position: relative;
+}
+
+
+/*******PARTIe TEXTE DE DROITE*******/
+
+#textservices{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    width: 40%;
+   
+    margin-top: 40px;
+    margin-left:60px;
+}
+
+.icon_text{
+
+    display: flex; 
+    flex-direction:row;
+    margin: 10px 0;
+}
+
+.icon_text li {
+    padding: 10px 10px;
+}
+
+/*****************CERCLE AVEC ICONE A COTE DU TEXTE***********************/
+
+
+.cercle_services{
+
+    width: 70px;
+    height: 70px;
+    border-radius: 90px;
+    background: #FFF;
+    border: solid 1px #9EACAA;
+    position: relative;
+
+   
+}
+
+.fa-chart-line, .fa-cubes, .fa-chart-pie{
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    color:#5cadd3;
+}
+
+
+
+.petit_cercle{
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    background:  #5cadd3;
+    border: solid 2px #FFF;
+    position: absolute;
+    right: -10px;
+    top: 25px;
+    z-index: 1;
+}
+
+
+
+.contenant{
+    width: 70px;
+    height: 70px;
+   
+}
+
+
+
+.icon_text p {
+    margin-left: 20px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+#Services:target{
+
+    padding-top: 100px;
+    margin-top: -100px;
+
+}
+
+
+/*-------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+------------------------------------PROJET-----------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+#Portfolio:target{
+ 
+      padding-top: 50px;
+
+
+}
+
+#Portfolio{
+ 
+       background-color:#F6F7F7;
+
+
+}
+
+
+/******MENU DYNAMIQUE********/
+
+
+
+#labels label:hover {
+
+    background-color: #5cadd3;
+    border-bottom-color: #1F4A88;
+    color: #FFF;
+}
+
+#labels label:hover .fa-caret-down{
+
+    opacity: 1;
+
+}
+
+
+.ul_projets input{
+
+   width: 50px;
+   display: none;
+   
+
+}
+
+
+
+.ul_projets  #All_works:checked ~ #labels  #r1,
+.ul_projets  #Creative:checked ~ #labels #r2,
+.ul_projets #Corporate:checked ~ #labels #r3,
+.ul_projets #folio:checked ~ #labels #r4 
+ {
+
+    background-color: #5cadd3;
+    border-bottom-color: #468cad;
+     color:#FFF;
+
+}
+
+.ul_projets  #All_works:checked ~  #labels #r1 .fa-caret-down,
+.ul_projets #Creative:checked ~ #labels #r2 .fa-caret-down,
+.ul_projets #Corporate:checked ~ #labels #r3 .fa-caret-down,
+.ul_projets #folio:checked ~ #labels #r4 .fa-caret-down 
+ {
+
+    opacity: 1;
+
+}
+
+
+
+#labels{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#labels label{
+
+   
+    background-color: #D8D9D9;
+    padding: 17px 15px;
+    position: relative;
+   border-bottom: transparent 4px solid;
+
+
+   
+}
+
+#labels label .fa-caret-down{
+    
+    position: absolute;
+    bottom: -14px;
+    left: 45%;
+    color: #468cad;
+    opacity: 0;
+}
+
+.bord_gauche{
+    border-radius: 5px 0 0 5px;
+}
+
+
+.bord_droit{
+    border-radius: 0px 5px 5px 0;
+}
+
+
+
+
+.ul_projets #Creative:checked ~ .portfolio figure:not(.crea ),
+.ul_projets #Corporate:checked ~ .portfolio figure:not(.corpo ),
+.ul_projets #folio:checked ~ .portfolio figure:not(.folio ){
+   
+    display: none;
+
+}
+
+
+
+
+
+/********IMAGES Portfolio*********/
+.portfolio{
+   
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-around;
+    
+}
+
+
+.img{
+
+
+    
+    margin: 2.5%;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.img:hover figcaption{
+
+    opacity: 1;
+}
+
+
+
+.img img{
+
+    width: 100%;
+    height: 100%;
+}
+
+
+figcaption{
+
+    background-color: rgba(0,0,0, 0.5);
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    padding: 15px 0 15px 20px;
+    opacity: 0;
+    transition: 0.5s linear;
+}
+
+.titre_image{
+    font-size: 1em;
+    font-weight: 800;
+    
+    
+}
+
+figcaption span{
+    font-weight: bold;
+}
+
+.cercle_portfolio{
+
+    width: 35px;
+    height: 35px;
+    border-radius: 45px;
+    background-color: #5cadd3;
+    position: absolute;
+    top: -17px;
+    right: 30px;
+    border: #FFF solid 1px;
+}
+
+.fa-eye{
+    margin-top: 10px;
+    margin-left: 8.5px;
+
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+------------------------------------CONTACT-----------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+footer{
+
+   
+    width: 100%;
+    max-width: 1600px;
+    height: 750px;
+    margin: auto;
+ 
+
+
+  
+    position: relative;
+
+   
+}
+
+iframe{
+    width: 100%;
+    height: 750px;
+    position: relative;
+    border:none;
+
+}
+
+.fond_blue{
+
+    background-color: rgba(0,90,205,0.3);
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    top: 0;
+    pointer-events: none;
+
+}
+
+ .contact{
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 100px;
+    right: 15%;
+  
+
+
+    width: 370px;
+    height: 500px;
+}
+
+
+ #Info {
+
+    margin-left: 20px;
+    
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+
+.contact p {
+
+    margin-left: 20px;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.adresse{
+
+
+    font-size: 0.9em;
+    font-weight: 800;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    
+    width: 200px;
+    margin-left: 17px;
+
+}
+
+
+input {
+
+    margin-top: 13px;
+    width: 315px;
+    height: 15px;
+    
+    border-radius: 4px;
+    border:  #d6d7d8 1px solid;
+
+
+}
+.champ_text{
+    padding: 8px 0;
+    padding-left: 5px;
+    width: 311px;
+}
+
+textarea{
+
+    margin-top: 13px;
+    padding-left: 5px;
+    width: 309px;
+    height: 120px;
+    border-radius: 4px;
+    border:  #d6d7d8 1px solid;
+
+}
+
+.button_send{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+
+    color: #FFFFFF;
+    background-color: #5cadd3; 
+    font-size: 0.8em;
+    border: none;
+    border-radius: 2px ;
+    box-shadow: 0px 3px  0 #4494bb;
+}
+
+input::placeholder{
+    font-family: "Roboto";
+   padding-left: 9px;
+    
+}
+
+textarea::placeholder{
+    font-family: "Roboto";
+    padding-left: 5px;
+    padding-top: 5px;
+    }
+
+/************************************************************************TABLETTE*********************************************************************************/
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+    body{
+        
+    width: 100%;
+        
+    
+    }
+
+    /*********ACCUEIL***********/
+  
+   #header_principale{
+    
+        width: 100%;
+
+        
+    }
+
+
+
+
+    #header_principale nav{
+        width: 20%;
+    }
+
+    .photo img{
+        width: 100%;
+     
+    }
+    .photo{
+        overflow: hidden;
+     
+    }
+
+    h1{
+    font-size: 20px;
+}
+
+h1 br{
+    display: none;
+}
+
+.left{
+  
+
+  top: 50%;
+  left: -40px;
+  
+}
+.fa-angle-left{
+    margin-top: 25px;
+    margin-left: 51px;
+    color: #FFF;
+}
+
+.fa-angle-right{
+    margin-top: 25px;
+    margin-left: 19px;
+    color: #FFF;
+}
+
+
+.right{
+    
+
+  top: 50%;
+  right: -55px;
+}
+
+.cercle_header{
+     width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    background: rgba(0,0,0,0.3);
+    
+}
+ .presentation{
+        margin-left:0;
+        margin-right: 0;
+        width: 80%;
+    }
+
+    nav ul {
+        margin: 0 ;
+        padding:0;
+        margin-left: -286px;
+    }
+    #textheader{
+        top:45%;
+        left: 13%;
+        width: 40%;
+        height: 160px;
+
+       
+        overflow: hidden;
+        
+    }
+
+   
+    #textheader p {
+        top:30px;
+        left: 50px;
+        font-size: 9px;
+        
+    }
+
+
+/*************SERVICES*************/
+
+    
+
+    #partiservices{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    #textservices{
+        margin-left: 0;
+        padding-left: 0;
+        align-items: flex-start;
+        width: 80%;
+       
+    }
+   .icon_text p, .icon_text h4{
+    margin-left: 30px;
+  
+   }
+
+    
+    /***********CONTACT***********/
+
+   iframe {
+       width: 99%;
+   }
+
+}
+
+@media screen and (max-width: 755px) {
+
+
+
+
+    /***********ACCUEIL***********/
+
+    #header_principale{
+
+        width: 100%;
+        height: 100px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+
+        height: 50px;
+    }
+
+
+
+    .logo img{
+
+    width: 100%;
+    top: 5px;
+    }
+
+
+
+    #header_principale nav{
+   
+        width: 100%;
+        justify-content: center;
+        height: 55px;
+
+    }
+
+    
+    
+    nav ul li {
+
+        transition: 0.3s ease;
+        border-top: transparent 2px solid;
+         padding: 11px 2px;
+         margin: 5px 12px;
+    }
+
+
+
+     #textheader{
+        width: 40%;
+        top:40%;
+        left: 10%;
+   
+   
+    }
+    #Accueil br{
+        display: none ;
+    }
+
+
+.left{
+  
+
+  top: 29%;
+  left: -40px;
+  
+}
+.fa-angle-left{
+    margin-top: 25px;
+    margin-left: 51px;
+    color: #FFF;
+}
+
+.fa-angle-right{
+    margin-top: 25px;
+    margin-left: 19px;
+    color: #FFF;
+}
+
+
+.right{
+    
+
+  top: 29%;
+  right: -55px;
+}
+
+.cercle_header{
+     width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    background: rgba(0,0,0,0.3);
+    
+}
+
+
+
+/*************SERVICES*************/
+
+
+    .icon_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .icon_text p {
+       margin: 0 40px;
+    } 
+     .icon_text h4 {
+      text-align: center;
+    } 
+
+
+
+    }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 555px) {
+
+    h1{
+    font-size: 12px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#textheader p{
+    
+    color: #FFF;
+    margin-top: 2px;
+    font-size: 6px;
+  
+}
+
+
+
+    #header_principale{
+
+        width: 100%;
+        height: 100px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        
+        height: 50px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 460px) {
+
+
+.contact{
+    width: 90%;
+    right:5%;
+    left: 5%;
+
+}
+
+}
+
+
+
+/************************************************************************MOBILE*********************************************************************************/
+@media screen and (max-width: 505px){
+
+    #imageservices img{
+   
+   display: block;
+    width: 320px;
+    height: 200px;
+   
+}
+}
+@media screen and (max-width: 555px){
+
+    body{
+      
+        padding: 0;
+        width: 100%;
+      
+       
+      
+    }
+
+    /********ACCUEIL**************/
+
+    #header_principale{
+
+        width: 100%;
+        height: 100px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+
+        height: 30px;
+        margin-top:10px;
+    }
+
+
+
+.logo img{
+
+    width: 100%;
+    top: 5px;
+}
+
+
+
+    #header_principale nav{
+       
+        width: 100%;
+        justify-content: center;
+        height: 55px;
+
+    }
+
+    nav ul li {
+
+    transition: 0.3s ease;
+    border-top: transparent 2px solid;
+}
+   nav ul {
+       margin-left: 0;
+   }
+
+#header_principale  nav li{
+    
+    padding: 10px 2px;
+    margin: 5px 12px;
+ 
+    
+}
+
+
+
+
+
+     #textheader{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        top:-1%;
+        left: 10%;
+        position: static;
+        background-color: #F6F7F7;
+   
+   
+    }
+    h1 br{
+        display: none;
+    }
+    h1{
+    font-size: 25px;
+     color: #000;
+}
+
+h2{
+    font-size: 30px;
+
+}
+
+#textheader p{
+    
+    color: #FFF;
+    margin-top: 2px;
+    font-size: 11px;
+     color: #000;
+}
+
+
+ #background{
+    margin-top: 50px;
+ }
+
+
+
+.left{
+  
+
+  top: 33%;
+  left: -35px;
+  
+}
+.fa-angle-left{
+    font-size: 21px;
+    margin-top: 19px;
+    margin-left: 39px;
+    color: #FFF;
+}
+
+.fa-angle-right{
+    font-size: 21px;
+    margin-top: 19px;
+    margin-left: 10px;
+    color: #FFF;
+}
+
+
+.right{
+    
+
+  top: 33%;
+  right: -73px;
+}
+
+.cercle_header{
+     width: 60px;
+    height: 60px;
+    border-radius: 70px;
+    background: rgba(0,0,0,0.3);
+    
+}
+
+#bar_slider{
+    bottom: 163.5px;
+}
+    
+    /***********SERVICES****************/
+    .icon_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon_text p {
+       margin: 0 20px;
+       text-align: center;
+    } 
+     .icon_text h4 {
+      text-align: center;
+      margin-left: 0;
+    } 
+
+    .presentation{
+        width: 90%;
+
+    }
+
+    #Services header{
+        margin-bottom: 60px;
+    }
+
+    .img{
+
+    
+    width: 40%;
+    
+    margin: 2.5%;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+
+
+button{
+
+    color: #FFFFFF;
+    background-color: #5cadd3; 
+    font-size: 0.5em;
+    height: 31px;
+    width: 79px;
+    border: none;
+    border-radius: 2px ;
+    box-shadow: 0px 3px  0 #4494bb;
+}
+
+
+#imageservices{
+   
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#imageservices img{
+   
+   display: block;
+    width: 320px;
+    height: 200px;
+   
+}
+
+#textservices{
+    width: 90%;
+}
+
+/************PROJETS**************/
+
+
+.ul_projets{
+    
+  padding:0 10px;
+}
+
+.cercle_services{
+    right: 0;
+}
+
+.img{
+    width: 100%;
+}
+
+
+/************CONTACT**************/
+footer{
+    width: 100%;
+}
+.contact{
+    position: static;
+    width: 100%;
+    background-color: #F6F7F7;
+    
+
+}
+
+form input, textarea {
+    width: 309px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 340px){
+
+form input, textarea {
+    width: 220px;
+}
+
+.ul_projets label{
+
+    font-size: 12px;
+}
+
+ #header_principale  nav li a{
+    
+font-size: 14px;
+    
+    }
+
+    #textheader h1{
+
+        font-size: 20px;
+    }
+
+}
+
